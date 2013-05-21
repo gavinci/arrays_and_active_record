@@ -85,7 +85,7 @@ class ActiveRecordTest < Test::Unit::TestCase
   def test_limit
     limited_cars = nil
     cars = 5.times.map { Car.create }
-    limited_cars = Car.order('created_at ASC').limit(4)
+    limited_cars = Car.order('created_at ASC').order('created_at DESC') #5).order('created_at ASC').limit(4)
     assert_equal cars.first(4), limited_cars
   end
 
