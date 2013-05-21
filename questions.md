@@ -20,8 +20,8 @@
 ## Active Record Docs
 
 
-0) Link to Rail's ActiveRecord querying conditions 
+0) Link to Rail's ActiveRecord querying conditions http://guides.rubyonrails.org/active_record_querying.html#conditions
 
-1) Link from APIdock to Rail's ActiveRecord querying conditions  
+1) Link from APIdock to Rail's ActiveRecord querying conditions http://apidock.com/rails/ActiveRecord/Base
 
-2) 
+2) Link to Rails Guides http://guides.rubyonrails.org/index.html
